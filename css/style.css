@@ -1,0 +1,12 @@
+#wrapper{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+#top{
+    background-image: url(img/background-hotel.png);
+    background-repeat: no-repeat;
+}
+#main-title{
+    text-align: center;
+}
