@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #wrapper{
     width: 100%;
     max-width: 1440px;
@@ -18,19 +23,37 @@
 }
 .content-title{
     text-align: center;
+    padding-top: 55px;
 }
 .content-01{
-    background-image: url(img/background-content01.png);
+    background-image: url(img/background-content-01.png);
     background-repeat: no-repeat;
     min-height: 1975px;
+}
+.swiper-slide{
+    text-align: center;
+    width: 1070px;
+}
+.swiper-background{
+    background-color: white;
+    padding: 30px;
+    width: 75%;
+    margin: 0 auto;
 }
 .content-02{
     background-image: url(img/background-content02.png);
     background-repeat: no-repeat;
     min-height: 1710px;
 }
+.content-03{
+    background-image: url(img/background-content03.png);
+    background-repeat: no-repeat;
+    min-height: 2255px;
+}
 .content-04{
     background-image: url(img/background-content04.png);
     background-repeat: no-repeat;
     min-height: 2332px;
+}
+@media only screen and (max-width: 1440px){ 
 }

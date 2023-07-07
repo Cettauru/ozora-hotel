@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
 </head>
 <body>
     <div id="wrapper">
@@ -12,7 +13,7 @@
             <div id="main-title">
                 <img src="img/main-title.png">
             </div>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             <div id="sub-title">
                 <p>「宿泊者様専用」大浴場などの設備や充実したサービスでファミリーやグループでゆったりとお過ごしいただけます。</p>
             </div>
@@ -21,6 +22,26 @@
             <div class="content-01">
                 <div class="content-title">
                     <img src="img/title-content01.png">
+                </div>
+                <br>
+                <div class="container">
+                    <div class="swiper-background">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                            <div class="swiper-slide"><img src="img/01_ファミリー.png"></div>
+                            <div class="swiper-slide"><img src="img/02_ファミリー.png"></div>
+                            <div class="swiper-slide"><img src="img/03_ファミリー.png"></div>
+                            <div class="swiper-slide"><img src="img/04_ファミリー.png"></div>
+                            <div class="swiper-slide"><img src="img/05_ファミリー.png"></div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <br>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    </div>
                 </div>
             </div>
             <div class="content-02">
@@ -41,5 +62,18 @@
         </div>
         <div id="bottom"></div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        });
+    </script>
 </body>
 </html>
