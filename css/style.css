@@ -6,7 +6,31 @@
 #top{
     background-image: url(img/background-hotel.png);
     background-repeat: no-repeat;
+    min-height: 1022px;
 }
 #main-title{
     text-align: center;
+}
+#sub-title p{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(46, 80, 112);
+}
+.content-title{
+    text-align: center;
+}
+.content-01{
+    background-image: url(img/background-content01.png);
+    background-repeat: no-repeat;
+    min-height: 1975px;
+}
+.content-02{
+    background-image: url(img/background-content02.png);
+    background-repeat: no-repeat;
+    min-height: 1710px;
+}
+.content-04{
+    background-image: url(img/background-content04.png);
+    background-repeat: no-repeat;
+    min-height: 2332px;
 }
