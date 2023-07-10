@@ -40,6 +40,9 @@
     padding: 15px;
     color: white;
 }
+.note{
+    font-size: 13px;
+}
 .swiper-background{
     background-color: white;
     padding: 30px 30px;
