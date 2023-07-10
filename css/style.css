@@ -50,6 +50,15 @@
     background-repeat: no-repeat;
     min-height: 2255px;
 }
+#text-content03{
+    background-color: white;
+    padding: 45px;
+    width: 75%;
+    margin: 0 auto;
+    color: rgb(46, 80, 112);
+    font-size: 16px;
+    text-align: center;
+}
 .content-04{
     background-image: url(img/background-content04.png);
     background-repeat: no-repeat;
