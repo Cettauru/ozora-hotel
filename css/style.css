@@ -17,8 +17,12 @@
     text-align: center;
 }
 #sub-title p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(46, 80, 112);
 }
 .content-title{
@@ -72,6 +76,12 @@
     position: absolute;
     top: 8%;
     left: 60%;
+}
+.bear-content01{
+    position: absolute;
+    z-index: 2;
+    left: 8%;
+    bottom: 20%;
 }
 #container-plan02{
     width: 100%;
@@ -130,6 +140,17 @@
     top: 10%;
     left: 60%;
 }
+.bear-content03{
+    position: absolute;
+    z-index: 2;
+    left: 8%;
+    bottom: 25%;
+}
+#container-plan05{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
 #plan-content03-2{
     background-color: white;
     padding: 40px;
@@ -138,6 +159,11 @@
     color: rgb(46, 80, 112);
     font-size: 18px;
     text-align: center;
+}
+#button-content03-2{
+    position: absolute;
+    top: 10%;
+    left: 60%;
 }
 .content-04{
     background-image: url(img/background-content04.png);
