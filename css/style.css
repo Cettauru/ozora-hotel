@@ -36,9 +36,12 @@
 .swiper-slide p{
     position: absolute;
     z-index: 2;
+    left: 0;
+    right: 0;
     bottom: 0;
     padding: 15px;
     color: white;
+    text-align: center;
 }
 .note{
     font-size: 13px;
@@ -51,6 +54,11 @@
     justify-content: center;
     align-items: center;
 }
+#container-plan01{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
 #plan-content01-1{
     background-color: white;
     padding: 60px;
@@ -60,6 +68,16 @@
     font-size: 18px;
     text-align: left;
 }
+#button-content01-1{
+    position: absolute;
+    top: 8%;
+    left: 60%;
+}
+#container-plan02{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
 #plan-content01-2{
     background-color: white;
     padding: 60px;
@@ -68,6 +86,11 @@
     color: rgb(46, 80, 112);
     font-size: 18px;
     text-align: left;
+}
+#button-content01-2{
+    position: absolute;
+    top: 8%;
+    left: 60%;
 }
 .content-02{
     background-image: url(img/background-content02.png);
@@ -88,6 +111,11 @@
     font-size: 16px;
     text-align: center;
 }
+#container-plan04{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
 #plan-content03-1{
     background-color: white;
     padding: 40px;
@@ -96,6 +124,11 @@
     color: rgb(46, 80, 112);
     font-size: 18px;
     text-align: center;
+}
+#button-content03-1{
+    position: absolute;
+    top: 10%;
+    left: 60%;
 }
 #plan-content03-2{
     background-color: white;
