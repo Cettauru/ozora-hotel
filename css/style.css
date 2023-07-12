@@ -63,6 +63,11 @@
     justify-content: center;
     align-items: center;
 }
+.container .swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    margin: 0 20px;
+}
 #container-plan01{
     width: 100%;
     margin: 0 auto;
@@ -191,6 +196,16 @@
     background-repeat: no-repeat;
     min-height: 2332px;
 }
+#container-text041{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+#fox-content04-1{
+    position: absolute;
+    right: 86%;
+    bottom: 75%;
+}
 #text-content04-1{
     background-color: white;
     padding: 45px;
@@ -204,6 +219,16 @@
     width: 100%;
     margin: 0 auto;
     text-align: center;
+}
+#container-text042{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+#fox-content04-2{
+    position: absolute;
+    left: 88%;
+    bottom: 72%;
 }
 #text-content04-2{
     background-color: white;
