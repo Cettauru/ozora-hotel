@@ -123,6 +123,43 @@
     background-repeat: no-repeat;
     min-height: 1710px;
 }
+#text-content02{
+    background-color: white;
+    padding: 50px;
+    width: 75%;
+    margin: 0 auto;
+    color: rgb(46, 80, 112);
+    font-size: 16px;
+    text-align: center;
+}
+#container-plan03{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+#bear-content02{
+    position: absolute;
+    z-index: 2;
+    left: 8%;
+    bottom: 20%;
+}
+#plan-content02{
+    background-color: white;
+    padding: 85px;
+    width: 75%;
+    margin: 0 auto;
+    color: rgb(46, 80, 112);
+    font-size: 18px;
+    text-align: left;
+}
+#button-content02{
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+}
+#button-content02 a:hover{
+    opacity: 90%;
+}
 .content-03{
     background-image: url(img/background-content03.png);
     background-repeat: no-repeat;
@@ -191,6 +228,16 @@
     top: 10%;
     left: 60%;
 }
+.container-titlecontent04{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+#bear-content04{
+    position: absolute;
+    left: 80%;
+    top: 50%;
+}
 .content-04{
     background-image: url(img/background-content04.png);
     background-repeat: no-repeat;
@@ -229,6 +276,21 @@
     position: absolute;
     left: 88%;
     bottom: 72%;
+}
+#container-yukiko{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+#utensils01{
+    position: absolute;
+    left: 82%;
+    bottom: 80%;
+}
+#utensils02{
+    position: absolute;
+    top: 60%;
+    left: 9%;
 }
 #text-content04-2{
     background-color: white;
