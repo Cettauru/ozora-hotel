@@ -141,6 +141,14 @@
     background-repeat: no-repeat;
     min-height: 1710px;
 }
+.parent-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.child-02{
+    display: block;
+    width: 80%;
+}
 #text-content02{
     background-color: white;
     padding: 50px;
