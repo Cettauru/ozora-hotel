@@ -68,19 +68,16 @@
     justify-content: center;
     align-items: center;
 }
-.container .swiper-button-prev{
-    background-image: url(img/navigation.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+.container [class^="swiper-button-"]::after{
+    content: "";
     width: 70px;
     height: 70px;
 }
+.container .swiper-button-prev{
+    left: 6%;
+}
 .container .swiper-button-next{
-    background-image: url(img/navigation.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
+    left: 92%;
 }
 .container .swiper-pagination-bullet{
     width: 20px;
