@@ -212,13 +212,13 @@
 }
 #plan-content03-1{
     background-color: white;
-    padding: 40px;
+    padding: 40px 115px;
     width: 75%;
     margin: 0 auto;
     color: rgb(46, 80, 112);
     font-family:midashi;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
 }
 #button-content03-1{
     position: absolute;
@@ -241,13 +241,14 @@
 }
 #plan-content03-2{
     background-color: white;
-    padding: 40px;
+    padding: 40px 115px;
     width: 75%;
     margin: 0 auto;
     color: rgb(46, 80, 112);
     font-family:midashi;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
+    left: 30%;
 }
 #button-content03-2{
     position: absolute;
