@@ -144,6 +144,8 @@
 .parent-flex{
     display: flex;
     justify-content: space-evenly;
+    width: 85%;
+    margin-left: 107px;
     padding: 45px;
 }
 .child-02{
