@@ -108,11 +108,17 @@
 #button-content01-1 a:hover{
     opacity: 90%;
 }
+.buttonsmall01-1{
+    display: none;
+}
 .bear-content01{
     position: absolute;
     z-index: 2;
     left: 8%;
     bottom: 20%;
+}
+.bear-content01 .bearsmall01{
+    display: none;
 }
 #container-plan02{
     width: 100%;
@@ -433,6 +439,57 @@
         max-width: 237px;
         height: auto;
         margin: 0 auto;
+    }
+    .swiper-slide p{
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 7px;
+        color: white;
+        text-align: center;
+    }
+    .note{
+        font-size: 6px;
+    }
+    #plan-content01-1{
+        background-color: white;
+        padding: 10px 20px;
+        width: 75%;
+        margin: 0 auto;
+        color: rgb(46, 80, 112);
+        font-family: midashi;
+        font-size: 12px;
+        text-align: left;
+    }
+    #plan-content01-2{
+        background-color: white;
+        padding: 10px 20px;
+        width: 75%;
+        margin: 0 auto;
+        color: rgb(46, 80, 112);
+        font-family: midashi;
+        font-size: 12px;
+        text-align: left;
+    }
+    #button-content01-1{
+        display: none;
+        visibility: hidden;
+    }
+    .buttonsmall01-1{
+        display: block;
+        position: absolute;
+        z-index: 2;
+    }
+    .bear-content01 .bearbig01{
+        display: none;
+        visibility: hidden;
+    }
+    .bear-content01 .bearsmall01{
+        display: block;
+        position: absolute;
+        z-index: 2;
     }
     .content-02{
         background-image: url(img/background-content02-smtpn.png);
