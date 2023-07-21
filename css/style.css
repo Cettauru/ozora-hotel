@@ -143,6 +143,9 @@
 #button-content01-2 a:hover{
     opacity: 90%;
 }
+.buttonsmall01-2{
+    display: none;
+}
 .content-02{
     background-image: url(img/background-content02.png);
     background-repeat: no-repeat;
@@ -183,6 +186,9 @@
     left: 8%;
     bottom: 20%;
 }
+.bearsmall02{
+    display: none;
+}
 #plan-content02{
     background-color: white;
     padding: 85px;
@@ -200,6 +206,9 @@
 }
 #button-content02 a:hover{
     opacity: 90%;
+}
+#buttonsmall02{
+    display: none;
 }
 .content-03{
     background-image: url(img/background-content03.png);
@@ -252,11 +261,17 @@
 #button-content03-1 a:hover{
     opacity: 90%;
 }
+#buttonsmall03-1{
+    display: none;
+}
 .bear-content03{
     position: absolute;
     z-index: 2;
     left: 8%;
     bottom: 25%;
+}
+.bearsmall03{
+    display: none;
 }
 #container-plan05{
     width: 100%;
@@ -281,6 +296,9 @@
 }
 #button-content03-2 a:hover{
     opacity: 90%;
+}
+#buttonsmall03-2{
+    display: none;
 }
 .container-titlecontent04{
     width: 100%;
@@ -491,6 +509,15 @@
         position: absolute;
         z-index: 2;
     }
+    #button-content01-2{
+        display: none;
+        visibility: hidden;
+    }
+    .buttonsmall01-2{
+        display: block;
+        position: absolute;
+        z-index: 2;
+    }
     .content-02{
         background-image: url(img/background-content02-smtpn.png);
         background-repeat: no-repeat;
@@ -507,6 +534,44 @@
         height: auto;
         margin: 0 auto;
     }
+    #text-content02{
+        background-color: white;
+        padding: 20px;
+        width: 75%;
+        margin: 0 auto;
+        color: rgb(46, 80, 112);
+        font-family:midashi;
+        font-size: 12px;
+        text-align: center;
+    }
+    #plan-content02{
+        background-color: white;
+        padding: 20px;
+        width: 75%;
+        margin: 0 auto;
+        color: rgb(46, 80, 112);
+        font-family:midashi;
+        font-size: 12px;
+        text-align: left;
+    }
+    .bearbig02{
+        display: none;
+        visibility: hidden;
+    }
+    .bearsmall02{
+        display: block;
+        position: absolute;
+        z-index: 2;
+    }
+    #button-content02{
+        display: none;
+        visibility: hidden;
+    }
+    #buttonsmall02{
+        display: block;
+        position: absolute;
+        z-index: 2;
+    }
     .content-03{
         background-image: url(img/background-content03-smtpn.png);
         background-repeat: no-repeat;
@@ -522,6 +587,53 @@
         max-width: 228px;
         height: auto;
         margin: 0 auto;
+    }
+    #plan-content03-1{
+        background-color: white;
+        padding: 20px 25px;
+        width: 75%;
+        margin: 0 auto;
+        color: rgb(46, 80, 112);
+        font-family:midashi;
+        font-size: 12px;
+        text-align: left;
+    }
+    #button-content03-1{
+        display: none;
+        visibility: hidden;
+    }
+    #buttonsmall03-1{
+        display: block;
+        position: absolute;
+        z-index: 2;
+    }
+    .bearbig03{
+        display: none;
+        visibility: hidden;
+    }
+    .bearsmall03{
+        display: block;
+        position: absolute;
+        z-index: 2;
+    }
+    #plan-content03-2{
+        background-color: white;
+        padding: 20px 25px;
+        width: 75%;
+        margin: 0 auto;
+        color: rgb(46, 80, 112);
+        font-family:midashi;
+        font-size: 12px;
+        text-align: left;
+    }
+    #button-content03-2{
+        display: none;
+        visibility: hidden;
+    }
+    #buttonsmall03-2{
+        display: block;
+        position: absolute;
+        z-index: 2;
     }
     .content-04{
         background-image: url(img/background-content04-smtpn.png);
