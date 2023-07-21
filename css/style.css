@@ -1,13 +1,3 @@
-@media only screen and (max-width: 1440px){
-    body{
-        background-color: white;
-    }
-}
-@media screen and (max-width:375px){
-    #container-plan01, #container-plan02{
-        flex-direction: column;
-    }
-}
 @font-face{
     font-family: midashi;
     src: url(font/A-OTF-MiGoMB1Std-DeBold.otf);
@@ -30,6 +20,9 @@
 #main-title{
     text-align: center;
 }
+#main-title .maintitle-2{
+    display: none;
+}
 #sub-title p{
     position: absolute;
     left: 0;
@@ -43,6 +36,9 @@
 .content-title{
     text-align: center;
     padding-top: 55px;
+}
+.content-title .title01-2{
+    display: none;
 }
 .content-01{
     background-image: url(img/background-content-01.png);
@@ -146,6 +142,9 @@
     background-repeat: no-repeat;
     min-height: 1710px;
 }
+.content-title .title02-2{
+    display: none;
+}
 .parent-flex{
     display: flex;
     justify-content: space-evenly;
@@ -200,6 +199,9 @@
     background-image: url(img/background-content03.png);
     background-repeat: no-repeat;
     min-height: 2255px;
+}
+.content-title .title03-2{
+    display: none;
 }
 #container-textcontent03{
     width: 100%;
@@ -289,6 +291,9 @@
     background-repeat: no-repeat;
     min-height: 2332px;
 }
+.content-title .title04-2{
+    display: none;
+}
 #container-text041{
     width: 100%;
     margin: 0 auto;
@@ -373,4 +378,108 @@
 }
 #button-2 img{
     width: 90%;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!MEDIA RULE!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!MEDIA RULE!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!MEDIA RULE!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!MEDIA RULE!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!MEDIA RULE!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!MEDIA RULE!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media only screen and (max-width: 1440px){
+    body{
+        background-color: white;
+    }
+    #top{
+        background-image: url(img/background-hotel-smtpn.png);
+        background-repeat: no-repeat;
+        min-height: 615px;
+    }
+    #main-title .maintitle-1{
+        display: none;
+        visibility: hidden;
+    }
+    #main-title .maintitle-2{
+        display: block;
+        width: 100%;
+        max-width: 233px;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    #sub-title p{
+        position: absolute;
+        left: 0;
+        top: 62%;
+        right: 0;
+        text-align: center;
+        font-family: midashi;
+        font-size: 12px;
+        color: rgb(46, 80, 112);
+    }
+    .content-01{
+        background-image: url(img/background-content01-smtpn.png);
+        background-repeat: no-repeat;
+        min-height: 587px;
+    }
+    .content-title .title01-1{
+        display: none;
+        visibility: hidden;
+    }
+    .content-title .title01-2{
+        display: block;
+        width: 100%;
+        max-width: 237px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .content-02{
+        background-image: url(img/background-content02-smtpn.png);
+        background-repeat: no-repeat;
+        min-height: 1197px;
+    }
+    .content-title .title02-1{
+        display: none;
+        visibility: hidden;
+    }
+    .content-title .title02-2{
+        display: block;
+        width: 100%;
+        max-width: 236px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .content-03{
+        background-image: url(img/background-content03-smtpn.png);
+        background-repeat: no-repeat;
+        min-height: 674px;
+    }
+    .content-title .title03-1{
+        display: none;
+        visibility: hidden;
+    }
+    .content-title .title03-2{
+        display: block;
+        width: 100%;
+        max-width: 228px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .content-04{
+        background-image: url(img/background-content04-smtpn.png);
+        background-repeat: no-repeat;
+        min-height: 699px;
+    }
+    .content-title .title04-1{
+        display: none;
+        visibility: hidden;
+    }
+    .content-title .title04-2{
+        display: block;
+        width: 100%;
+        max-width: 188px;
+        height: auto;
+        margin: 0 auto;
+    }
 }
