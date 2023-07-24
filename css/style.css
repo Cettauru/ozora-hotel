@@ -241,6 +241,12 @@
     right: 0;
     bottom: 55%;
 }
+.foxbig03{
+    display: block;
+}
+.foxsmall03{
+    display: none;
+}
 #text-content03{
     background-color: white;
     padding: 45px;
@@ -344,6 +350,12 @@
     right: 86%;
     bottom: 75%;
 }
+.foxbig04-1{
+    display: block;
+}
+.foxsmall04-1{
+    display: none;
+}
 #text-content04-1{
     background-color: white;
     padding: 45px;
@@ -368,6 +380,12 @@
     position: absolute;
     left: 88%;
     bottom: 72%;
+}
+.foxbig04-2{
+    display: block;
+}
+.foxsmall04-2{
+    display: none;
 }
 #container-yukiko{
     width: 100%;
@@ -497,6 +515,7 @@
         padding: 7px;
         color: white;
         text-align: center;
+        font-size: 6px;
     }
     .note{
         font-size: 6px;
@@ -508,7 +527,7 @@
         margin: 0 auto;
         color: rgb(46, 80, 112);
         font-family: midashi;
-        font-size: 12px;
+        font-size: 8px;
         text-align: left;
     }
     #plan-content01-2{
@@ -518,7 +537,7 @@
         margin: 0 auto;
         color: rgb(46, 80, 112);
         font-family: midashi;
-        font-size: 12px;
+        font-size: 8px;
         text-align: left;
     }
     #button-content01-1{
@@ -633,6 +652,15 @@
         height: auto;
         margin: 0 auto;
     }
+    .foxbig03{
+        display: none;
+        visibility: hidden;
+    }
+    .foxsmall03{
+        display: block;
+        position: absolute;
+        z-index: 2;
+    }
     #text-content03{
         background-color: white;
         padding: 20px;
@@ -715,6 +743,15 @@
         position: absolute;
         z-index: 2;
     }
+    .foxbig04-1{
+        display: none;
+        visibility: hidden;
+    }
+    .foxsmall04-1{
+        display: block;
+        position: absolute;
+        z-index: 2;
+    }
     #text-content04-1{
         background-color: white;
         padding: 20px;
@@ -730,6 +767,15 @@
         max-width: 219px;
         height: auto;
         object-fit: cover;
+    }
+    .foxbig04-2{
+        display: none;
+        visibility: hidden;
+    }
+    .foxsmall04-2{
+        display: block;
+        position: absolute;
+        z-index: 2;
     }
     #text-content04-2{
         background-color: white;
