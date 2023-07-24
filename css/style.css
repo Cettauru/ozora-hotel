@@ -83,8 +83,20 @@
 .container .swiper-button-prev{
     left: 6%;
 }
+.container .swiper-button-prev img{
+    width: 100%;
+    max-width: 70px;
+    height: auto;
+    object-fit: cover;
+}
 .container .swiper-button-next{
     left: 92%;
+}
+.container .swiper-button-next img{
+    width: 100%;
+    max-width: 70px;
+    height: auto;
+    object-fit: cover;
 }
 .container .swiper-pagination-bullet{
     width: 20px;
@@ -518,6 +530,20 @@
         height: auto;
         margin: 0 auto;
     }
+    .swiper-background{
+        padding: 10px;
+    }
+    .container [class^="swiper-button-"]::after{
+        content: "";
+        width: 20px;
+        height: 20px;
+    }
+    .container .swiper-button-prev{
+        left: 4%;
+    }
+    .container .swiper-button-next{
+        left: 88%;
+    }
     .swiper-slide p{
         position: absolute;
         z-index: 2;
@@ -528,6 +554,11 @@
         color: white;
         text-align: center;
         font-size: 6px;
+    }
+    .container .swiper-pagination-bullet{
+        width: 8px;
+        height: 8px;
+        margin: 0 8px;
     }
     .note{
         font-size: 6px;
@@ -680,7 +711,7 @@
         margin: 0 auto;
         color: rgb(46, 80, 112);
         font-family:midashi;
-        font-size: 12px;
+        font-size: 8px;
         text-align: center;
     }
     #plan-content03-1{
@@ -816,6 +847,11 @@
         font-family:midashi;
         font-size: 8px;
         text-align: center;
+    }
+    #bottom{
+        background-image: url(img/background-coupon-smtpn.png);
+        background-repeat: no-repeat;
+        min-height: 411px;
     }
     #button-1{
         padding: 10px;
