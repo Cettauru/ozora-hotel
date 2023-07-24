@@ -397,10 +397,22 @@
     left: 82%;
     bottom: 80%;
 }
+.utenbig-1{
+    display: block;
+}
+.utensmall-1{
+    display: none;
+}
 #utensils02{
     position: absolute;
     top: 60%;
     left: 9%;
+}
+.utenbig-2{
+    display: block;
+}
+.utensmall-2{
+    display: none;
 }
 #rating img{
     width: 100%;
@@ -761,6 +773,24 @@
         font-family:midashi;
         font-size: 8px;
         text-align: center;
+    }
+    .utenbig-1{
+        display: none;
+        visibility: hidden;
+    }
+    .utensmall-1{
+        display: block;
+        position: absolute;
+        z-index: 2;
+    }
+    .utenbig-2{
+        display: none;
+        visibility: hidden;
+    }
+    .utensmall-2{
+        display: block;
+        position: absolute;
+        z-index: 2;
     }
     #rating img{
         width: 100%;
