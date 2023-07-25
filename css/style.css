@@ -851,7 +851,8 @@
         margin: 0 auto;
         color: rgb(46, 80, 112);
         font-family:midashi;
-        font-size: 7px;
+        font-size: 8px;
+        line-height: 1;
         text-align: center;
     }
     .utenbig-1{
@@ -894,7 +895,8 @@
         margin: 0 auto;
         color: rgb(46, 80, 112);
         font-family:midashi;
-        font-size: 7px;
+        font-size: 8px;
+        line-height: 1;
         text-align: center;
     }
     #bottom{
