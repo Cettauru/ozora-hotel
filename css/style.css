@@ -36,6 +36,7 @@
 .content-title{
     text-align: center;
     padding-top: 55px;
+    padding-bottom: 55px;
 }
 .content-title .title01-2{
     display: none;
@@ -514,6 +515,11 @@
         font-size: 12px;
         color: rgb(46, 80, 112);
     }
+    .content-title{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     .content-01{
         background-image: url(img/background-content01-smtpn.png);
         background-repeat: no-repeat;
@@ -860,5 +866,10 @@
     }
     #button-1{
         padding: 10px;
+    }
+    #button-2{
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
     }
 }
