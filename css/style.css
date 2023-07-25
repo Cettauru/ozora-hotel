@@ -576,7 +576,8 @@
         padding: 7px;
         color: white;
         text-align: center;
-        font-size: 6px;
+        font-size: 4px;
+        line-height: 1;
     }
     .container .swiper-pagination-bullet{
         width: 8px;
@@ -682,11 +683,12 @@
         padding-bottom: 20px;
         color: rgb(46, 80, 112);
         font-family:midashi;
-        font-size: 7px;
+        font-size: 8px;
+        line-height: 1;
         text-align: center;
     }
     #container-plan03{
-        padding-top: 10px;
+        padding-top: 20px;
     }
     #plan-content02{
         background-color: white;
@@ -753,6 +755,7 @@
         color: rgb(46, 80, 112);
         font-family:midashi;
         font-size: 8px;
+        line-height: 1;
         text-align: center;
     }
     #container-plan04{
@@ -769,6 +772,7 @@
         color: rgb(46, 80, 112);
         font-family:midashi;
         font-size: 8px;
+        line-height: 1;
         text-align: center;
     }
     #button-content03-1{
@@ -798,6 +802,7 @@
         color: rgb(46, 80, 112);
         font-family:midashi;
         font-size: 8px;
+        line-height: 1;
         text-align: center;
     }
     #button-content03-2{
