@@ -51,6 +51,7 @@
 }
 .swiper-slide{
     text-align: center;
+    margin-bottom: 75px;
 }
 .swiper-slide img{
     width: 100%;
@@ -282,6 +283,7 @@
     width: 100%;
     margin: 0 auto;
     position: relative;
+    padding-bottom: 70px;
 }
 #plan-content03-1{
     background-color: white;
@@ -412,6 +414,7 @@
     width: 100%;
     margin: 0 auto;
     position: relative;
+    padding-top: 10px;
 }
 #utensils01{
     position: absolute;
@@ -544,8 +547,14 @@
         height: auto;
         margin: 0 auto;
     }
+    .container{
+        margin-bottom: 20px;
+    }
     .swiper-background{
         padding: 10px;
+    }
+    .swiper-slide{
+        margin-bottom: 30px;
     }
     .container [class^="swiper-button-"]::after{
         content: "";
@@ -576,6 +585,9 @@
     }
     .note{
         font-size: 6px;
+    }
+    #container-plan01{
+        padding-bottom: 20px;
     }
     #plan-content01-1{
         background-color: white;
@@ -653,19 +665,28 @@
         width: 100%;
         max-width: 295px;
         margin: 0 auto;
+        text-align: center;
     }
     .smartphone-list ul li{
         list-style-type: none;
+    }
+    .smartphone-list img{
+        width: 95%;
+        margin: 0 auto;
     }
     #text-content02{
         background-color: white;
         padding: 20px;
         width: 75%;
         margin: 0 auto;
+        padding-bottom: 20px;
         color: rgb(46, 80, 112);
         font-family:midashi;
-        font-size: 8px;
+        font-size: 7px;
         text-align: center;
+    }
+    #container-plan03{
+        padding-top: 10px;
     }
     #plan-content02{
         background-color: white;
@@ -721,6 +742,9 @@
         position: absolute;
         z-index: 2;
     }
+    #container-textcontent03{
+        padding-bottom: 20px;
+    }
     #text-content03{
         background-color: white;
         padding: 20px;
@@ -730,6 +754,12 @@
         font-family:midashi;
         font-size: 8px;
         text-align: center;
+    }
+    #container-plan04{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        padding-bottom: 20px;
     }
     #plan-content03-1{
         background-color: white;
@@ -821,7 +851,7 @@
         margin: 0 auto;
         color: rgb(46, 80, 112);
         font-family:midashi;
-        font-size: 8px;
+        font-size: 7px;
         text-align: center;
     }
     .utenbig-1{
@@ -864,7 +894,7 @@
         margin: 0 auto;
         color: rgb(46, 80, 112);
         font-family:midashi;
-        font-size: 8px;
+        font-size: 7px;
         text-align: center;
     }
     #bottom{
