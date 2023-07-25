@@ -591,6 +591,7 @@
         display: block;
         position: absolute;
         z-index: 2;
+        left: 32%;
     }
     .bear-content01 .bearbig01{
         display: none;
@@ -609,6 +610,7 @@
         display: block;
         position: absolute;
         z-index: 2;
+        left: 32%;
     }
     .content-02{
         background-image: url(img/background-content02-smtpn.png);
@@ -659,7 +661,7 @@
         color: rgb(46, 80, 112);
         font-family:midashi;
         font-size: 8px;
-        text-align: left;
+        text-align: center;
     }
     .bearbig02{
         display: none;
@@ -678,6 +680,7 @@
         display: block;
         position: absolute;
         z-index: 2;
+        left: 32%;
     }
     .content-03{
         background-image: url(img/background-content03-smtpn.png);
@@ -722,7 +725,7 @@
         color: rgb(46, 80, 112);
         font-family:midashi;
         font-size: 8px;
-        text-align: left;
+        text-align: center;
     }
     #button-content03-1{
         display: none;
@@ -732,6 +735,7 @@
         display: block;
         position: absolute;
         z-index: 2;
+        left: 32%;
     }
     .bearbig03{
         display: none;
@@ -750,7 +754,7 @@
         color: rgb(46, 80, 112);
         font-family:midashi;
         font-size: 8px;
-        text-align: left;
+        text-align: center;
     }
     #button-content03-2{
         display: none;
@@ -760,6 +764,7 @@
         display: block;
         position: absolute;
         z-index: 2;
+        left: 32%;
     }
     .content-04{
         background-image: url(img/background-content04-smtpn.png);
