@@ -588,27 +588,35 @@
         font-size: 6px;
     }
     #container-plan01{
-        padding-bottom: 20px;
+        padding-bottom: 15px;
     }
     #plan-content01-1{
         background-color: white;
-        padding: 10px 20px;
+        padding-left: 22px;
+        padding-top: 20px;
+        padding-right: 22px;
+        padding-bottom: 50px;
         width: 75%;
         margin: 0 auto;
         color: rgb(46, 80, 112);
         font-family: midashi;
-        font-size: 8px;
-        text-align: left;
+        font-size: 7px;
+        line-height: 1;
+        text-align: center;
     }
     #plan-content01-2{
         background-color: white;
-        padding: 10px 20px;
+        padding-left: 22px;
+        padding-top: 20px;
+        padding-right: 22px;
+        padding-bottom: 50px;
         width: 75%;
         margin: 0 auto;
         color: rgb(46, 80, 112);
         font-family: midashi;
-        font-size: 8px;
-        text-align: left;
+        font-size: 7px;
+        line-height: 1;
+        text-align: center;
     }
     #button-content01-1{
         display: none;
@@ -619,6 +627,7 @@
         position: absolute;
         z-index: 2;
         left: 32%;
+        top: 43%;
     }
     .bear-content01 .bearbig01{
         display: none;
@@ -638,6 +647,7 @@
         position: absolute;
         z-index: 2;
         left: 32%;
+        top: 50%;
     }
     .content-02{
         background-image: url(img/background-content02-smtpn.png);
@@ -692,7 +702,10 @@
     }
     #plan-content02{
         background-color: white;
-        padding: 20px;
+        padding-left: 25px;
+        padding-top: 20px;
+        padding-right: 25px;
+        padding-bottom: 65px;
         width: 75%;
         margin: 0 auto;
         color: rgb(46, 80, 112);
@@ -718,6 +731,7 @@
         position: absolute;
         z-index: 2;
         left: 32%;
+        top: 60%;
     }
     .content-03{
         background-image: url(img/background-content03-smtpn.png);
