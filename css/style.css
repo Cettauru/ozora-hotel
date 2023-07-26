@@ -554,7 +554,7 @@
         padding: 10px;
     }
     .swiper-slide{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .container [class^="swiper-button-"]::after{
         content: "";
@@ -721,7 +721,7 @@
     }
     .content-03{
         background-image: url(img/background-content03-smtpn.png);
-        background-repeat: no-repeat;
+        background-repeat: repeat-y;
         min-height: 674px;
     }
     .content-title .title03-1{
@@ -743,6 +743,8 @@
         display: block;
         position: absolute;
         z-index: 2;
+        right: 25%;
+        bottom: 30%;
     }
     #container-textcontent03{
         padding-bottom: 20px;
@@ -766,7 +768,10 @@
     }
     #plan-content03-1{
         background-color: white;
-        padding: 20px 25px;
+        padding-left: 25px;
+        padding-top: 20px;
+        padding-right: 25px;
+        padding-bottom: 50px;
         width: 75%;
         margin: 0 auto;
         color: rgb(46, 80, 112);
@@ -784,6 +789,7 @@
         position: absolute;
         z-index: 2;
         left: 32%;
+        top: 57%;
     }
     .bearbig03{
         display: none;
@@ -796,7 +802,10 @@
     }
     #plan-content03-2{
         background-color: white;
-        padding: 20px 25px;
+        padding-left: 25px;
+        padding-top: 20px;
+        padding-right: 25px;
+        padding-bottom: 50px;
         width: 75%;
         margin: 0 auto;
         color: rgb(46, 80, 112);
@@ -814,10 +823,11 @@
         position: absolute;
         z-index: 2;
         left: 32%;
+        top: 65%;
     }
     .content-04{
         background-image: url(img/background-content04-smtpn.png);
-        background-repeat: no-repeat;
+        background-repeat: repeat-y;
         min-height: 699px;
     }
     .content-title .title04-1{
@@ -848,6 +858,8 @@
         display: block;
         position: absolute;
         z-index: 2;
+        right: 97%;
+        bottom: 35%;
     }
     #text-content04-1{
         background-color: white;
@@ -856,7 +868,7 @@
         margin: 0 auto;
         color: rgb(46, 80, 112);
         font-family:midashi;
-        font-size: 8px;
+        font-size: 7px;
         line-height: 1;
         text-align: center;
     }
@@ -892,6 +904,7 @@
         display: block;
         position: absolute;
         z-index: 2;
+        bottom: 40%;
     }
     #text-content04-2{
         background-color: white;
@@ -900,7 +913,7 @@
         margin: 0 auto;
         color: rgb(46, 80, 112);
         font-family:midashi;
-        font-size: 8px;
+        font-size: 7px;
         line-height: 1;
         text-align: center;
     }
