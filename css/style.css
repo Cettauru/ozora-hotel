@@ -725,10 +725,12 @@
         display: none;
         visibility: hidden;
     }
-    #bear-content02 .bearsmall02{
+    .bearsmall02{
         display: block;
         position: absolute;
         z-index: 3;
+        left: 30%;
+        bottom: 0;
     }
     #button-content02{
         display: none;
