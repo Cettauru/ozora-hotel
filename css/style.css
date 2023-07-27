@@ -226,6 +226,7 @@
     padding: 85px;
     width: 75%;
     margin: 0 auto;
+    margin-top: 55px;
     color: rgb(46, 80, 112);
     font-family:midashi;
     font-size: 22px;
@@ -437,6 +438,10 @@
 }
 .utensmall-2{
     display: none;
+}
+#rating{
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 #rating img{
     width: 100%;
@@ -903,6 +908,10 @@
         display: block;
         position: absolute;
         z-index: 2;
+    }
+    #rating{
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     #rating img{
         width: 100%;
